@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sub"
+        android:orderInCategory="100"
+        android:title="Sub"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mut"
+        android:orderInCategory="100"
+        android:title="Multiply"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/div"
+        android:orderInCategory="100"
+        android:title="Div"
+        app:showAsAction="never" />
+</menu>
